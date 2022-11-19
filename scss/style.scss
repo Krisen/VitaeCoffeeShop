@@ -1,0 +1,30 @@
+@import "_zero.scss";
+@import "_colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+body {
+  font-family: Ubuntu;
+}
+.head__body {
+  height: 100px;
+  background-color: $clb;
+  color: $clfye;
+  font-weight: 700;
+}
+.head__list {
+  font-size: 19px;
+  display: flex;
+  position: absolute;
+  gap: 50px;
+  margin: 40px 0 0 800px;
+}
+.head_back {
+  background: rgb(228, 216, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 216, 210, 1) 24%,
+    rgba(68, 64, 63, 1) 67%,
+    rgba(68, 64, 63, 1) 81%
+  );
+  height: 620px;
+}
